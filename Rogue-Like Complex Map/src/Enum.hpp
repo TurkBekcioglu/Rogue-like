@@ -1,0 +1,2 @@
+enum Stat {HP, MHP, ATTACK, DEFENSE, DEXTERITY, LUCK};
+enum EType {ARMOR, WEAPON};

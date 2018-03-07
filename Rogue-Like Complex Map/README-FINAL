@@ -1,0 +1,31 @@
+Which of your proposed features	you	implemented:
+	We implemented all of the major features outlined in our initial proposal:
+		- Procedural dungeon generation
+		- Fog of war system
+		- Combat
+		- Items/inventory system
+		- Grid-based movement
+		- Turn-based movement and combat
+		- Have a floor or level systems with progressing difficulty
+
+The	class hierarchy	you	ended up with:
+
+	Engine [contains List of Actor, Actor player, Actor stair, Map map]
+	Actor [contains Attacker, Destructible, Container, Pickable, Ai]
+	Map 
+	Attacker [contains Actor weapon]
+	Destructible [contains Actor armor]
+	Container [contains List of Actor]
+	Ai 
+		PlayerAi:Ai
+		MonsterAi:Ai
+	Pickable
+		Buffer:Pickable
+		Equipment:Pickable
+	Gui
+
+
+
+
+How	your project dynamically manages memory:
+	Memory is allocated and freed every floor. All objects except the player, stairs, and boss are allocated and freed every floor. Buffers are freed when they are used. Player object is only freed upon death.
