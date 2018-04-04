@@ -1,0 +1,6 @@
+Controls:
+
+Move with arrow keys.
+Move over items [! = potions, / = weapons, T = armor] and use 'g' to place them in your inventory
+Open inventory with 'i' and hit the corresponding key to use an item.
+Open the drop menu with 'd' and hit the corres[onding key to drop an item onto ur current position.
