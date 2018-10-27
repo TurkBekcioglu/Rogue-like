@@ -1,11 +1,13 @@
-This project was created in a team; the goal was to design and develop a Rogue-Like game in C++. The team's main goals were to implement randomly generated dungeons and a fog-of-war exploration style.
+Safeguard is a turn based strategy game where a player gathers and utilizes various resources in order to combat the pollution spreading over the map.
 
- 
+  
 
 Roles:
 
-Scripting the random map generation.
-Implemented floor progression and fog-of-war mechanics.
-Wrote code for enemy AI and combat as well as inventory and item interactions.
-Designed and implemented UI interactions.
-Organizing team members and resources to keep project on track and solve several major problems towards the end of development.
+Designed tile types and behaviors
+Designed and developed character backgrounds and behavior
+Scripted character actions and map behaviors.
+Assisted with many other parts of the game such as turn based logic, pollution spread, and character movement.
+ 
+
+My main responsibilities focused on implementing the actions available to the player, but I was also involved in most of the other programming roles due to the small size of our team.
